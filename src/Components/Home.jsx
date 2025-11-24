@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Home() {
   const featuredServices = [
     { 
@@ -35,7 +37,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-linear-to-r from-blue-600 to-blue-800 rounded-2xl shadow-xl p-8 text-center text-white overflow-hidden">
+      <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl shadow-xl p-8 text-center text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
@@ -119,7 +121,7 @@ export default function Home() {
         <div className="mt-12 text-center">
           <a 
             href="/services" 
-            className="inline-block bg-linear-to-r from-blue-900 to-blue-700 text-white py-4 px-12 rounded-full hover:from-blue-800 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 font-semibold shadow-lg"
+            className="inline-block bg-gradient-to-r from-blue-900 to-blue-700 text-white py-4 px-12 rounded-full hover:from-blue-800 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 font-semibold shadow-lg"
           >
             View All Services
           </a>
